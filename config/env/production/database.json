@@ -12,7 +12,7 @@
         "password": "${process.env.DATABASE_PASSWORD}"
       },
       "options": {
-        "ssl": true,
+        "ssl": false,
         "pool": {
           "min": 0,
           "max": 15,
